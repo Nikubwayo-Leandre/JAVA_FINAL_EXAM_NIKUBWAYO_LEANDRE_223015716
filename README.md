@@ -1,7 +1,7 @@
-###🎓 Education Automation Management System (EAMS)
+#### 🎓 Education Automation Management System (EAMS)
 A comprehensive desktop application for managing educational institutions, built with Java Swing and MySQL.
 
-##✨ Features
+## ✨ Features
 Student Management - Complete student records and enrollment tracking
 
 Course Management - Course catalog, scheduling, and prerequisites
@@ -14,7 +14,7 @@ Attendance System - Real-time attendance tracking and reporting
 
 Reporting Engine - Custom reports with PDF/Excel export
 
-##🚀 Quick Start
+## 🚀 Quick Start
 Prerequisites
 Java JDK 17+
 
@@ -30,7 +30,7 @@ git clone https://github.com/yourusername/eams.git
 cd eams
 Setup Database
 
-##sql
+## sql
 CREATE DATABASE eams_db;
 CREATE USER 'eams_user'@'localhost' IDENTIFIED BY 'password123';
 GRANT ALL PRIVILEGES ON eams_db.* TO 'eams_user'@'localhost';
@@ -38,7 +38,7 @@ FLUSH PRIVILEGES;
 Configure Application
 Edit config/database.properties:
 
-##properties
+## properties
 db.url=jdbc:mysql://localhost:3306/eams_db
 db.username=eams_user
 db.password=password123
@@ -47,7 +47,7 @@ Build and Run
 bash
 mvn clean compile
 mvn exec:java -Dexec.mainClass="studentmanagement.StudentManagementSystem"
-📖 Usage
+## 📖 Usage
 Default Login: admin / admin123
 
 Dashboard: View system overview and key metrics
@@ -60,7 +60,7 @@ Grades: Enter grades and generate transcripts
 
 Reports: Generate and export various reports
 
-##📁 Project Structure
+## 📁 Project Structure
 text
 eams/
 ├── src/main/java/studentmanagement/
@@ -72,11 +72,11 @@ eams/
 ├── database/          # SQL scripts
 ├── config/            # Configuration files
 └── README.md
-🧪 Testing
+## 🧪 Testing
 bash
 mvn test              # Run all tests
 mvn jacoco:report     # Generate coverage report
-##🤝 Contributing
+## 🤝 Contributing
 Fork the repository
 
 Create a feature branch (git checkout -b feature/amazing)
@@ -87,10 +87,10 @@ Push to branch (git push origin feature/amazing)
 
 Open a Pull Request
 
-##📄 License
+## 📄 License
 MIT License - see LICENSE for details.
 
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 University of Rwanda for academic support
 
 Dr. Bugingo Emmanuel - Project Supervisor
