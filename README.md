@@ -1,4 +1,4 @@
-#### 🎓 Education Automation Management System (EAMS)
+# 🎓 Education Automation Management System (EAMS)
 A comprehensive desktop application for managing educational institutions, built with Java Swing and MySQL.
 
 ## ✨ Features
