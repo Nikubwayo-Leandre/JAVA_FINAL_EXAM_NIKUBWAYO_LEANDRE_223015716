@@ -14,22 +14,6 @@ Attendance System - Real-time attendance tracking and reporting
 
 Reporting Engine - Custom reports with PDF/Excel export
 
-## 🚀 Quick Start
-Prerequisites
-Java JDK 17+
-
-MySQL 8.0+
-
-Maven 3.8+
-
-Installation
-Clone the repository
-
-bash
-git clone https://github.com/yourusername/eams.git
-cd eams
-Setup Database
-
 ## sql
 CREATE DATABASE eams_db;
 CREATE USER 'eams_user'@'localhost' IDENTIFIED BY 'password123';
